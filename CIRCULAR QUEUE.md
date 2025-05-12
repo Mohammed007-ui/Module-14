@@ -34,9 +34,8 @@ else:
 ```
 
 ### OUTPUT
-```
 ![image](https://github.com/user-attachments/assets/7eb80bfb-2ed7-47ff-997f-49b5aef02a91)
-```
+
 
 ### RESULT
 
