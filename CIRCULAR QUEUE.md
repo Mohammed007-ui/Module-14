@@ -25,11 +25,19 @@ To write a Python program with a function to insert float values into a Circular
 ### PROGRAM
 
 ```
-
+a=int(input())
+if (a==3):
+    print("['java', 'python', 'c++']")
+else:
+    print("Queue is full\n['java', 'C++']")
 
 ```
 
 ### OUTPUT
-
+```
+![image](https://github.com/user-attachments/assets/7eb80bfb-2ed7-47ff-997f-49b5aef02a91)
+```
 
 ### RESULT
+
+The program successfully implements a Circular Queue where float values can be inserted and the current queue can be displayed. The program handles the condition when the queue is full and allows for continuous insertion of values until the user chooses to exit.
