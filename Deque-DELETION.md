@@ -24,9 +24,43 @@ To write a Python program to delete elements at FRONT END of deque using a colle
 ### PROGRAM  
 
 ```
+from collections import deque
+
+# Create an empty deque
+dq = deque()
+
+# Number of elements to input
+n = 3
+
+print(f"Enter {n} integers to add to the deque:")
+
+# Input elements and append to deque
+for _ in range(n):
+    while True:
+        try:
+            value = int(input())
+            dq.append(value)
+            break
+        except ValueError:
+            print("Please enter a valid integer.")
+
+print("Deque before deletion:", dq)
+
+# Remove element from front
+if dq:
+    removed_element = dq.popleft()
+    print(f"Removed element from front: {removed_element}")
+else:
+    print("Deque is empty, nothing to remove.")
+
+print("Deque after deletion:", dq)
+
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/48440da4-f2a8-460d-8fba-dd64671f93f1)
 
 
 ### RESULT
+The program successfully deletes the front element from the deque and displays the updated deque.
+
